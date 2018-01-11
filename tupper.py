@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import sys
+import os
 import matplotlib.pyplot as plot
 
 def tupper_belongs(x, y, H):
@@ -53,9 +54,13 @@ def tupper_plot(N, H, W):
 	yticks = range(0, H + 1, 4)
 	plot.yticks(yticks, ['N']+['N + %d' %i for i in yticks][1:])
 
+	# Creates the directory for saving the images
+	if not os.path.exists("images/"):
+		os.makedirs("images/")
+
 	# Save plot into different images format
-	plot.savefig('out.png')
-	plot.savefig('out.svg')
+	plot.savefig('images/out.png')
+	plot.savefig('images/out.svg')
 
 def tupper():
 
