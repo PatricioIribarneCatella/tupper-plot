@@ -22,7 +22,7 @@ The formula is an inequality defined as:
 	make
 ```
 
-It will generate a directory called *images* than contains the result in two different formats.  
+It will generate a directory called *images* that contains the result in two different formats (*png* and *svg*).  
 
 To delete this directory type:  
 
