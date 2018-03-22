@@ -14,7 +14,7 @@ Information taken from [Wikipedia](https://en.wikipedia.org/wiki/Tupper%27s_self
 
 The formula is an inequality defined as:  
 
-{\displaystyle {1 \over 2}<\left\lfloor \mathrm {mod} \left(\left\lfloor {y \over 17}\right\rfloor 2^{-17\lfloor x\rfloor -\mathrm {mod} (\lfloor y\rfloor ,17)},2\right)\right\rfloor } {\displaystyle {1 \over 2}<\left\lfloor \mathrm {mod} \left(\left\lfloor {y \over 17}\right\rfloor 2^{-17\lfloor x\rfloor -\mathrm {mod} (\lfloor y\rfloor ,17)},2\right)\right\rfloor }  
+![tupper-plot](/home/patricio/repositorios/tupper-plot/tupper-plot.png)
 
 ### Build and Run
 
@@ -29,3 +29,4 @@ To delete this directory type:
 ```bash
 	make clean
 ```
+
