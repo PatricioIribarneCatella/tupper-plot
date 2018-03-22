@@ -14,7 +14,7 @@ Information taken from [Wikipedia](https://en.wikipedia.org/wiki/Tupper%27s_self
 
 The formula is an inequality defined as:  
 
-![tupper-plot](/home/patricio/repositorios/tupper-plot/tupper-plot.png)
+![tupper-plot](https://github.com/PatricioIribarneCatella/tupper-plot/blob/master/tupper-plot.png)
 
 ### Build and Run
 
