@@ -19,7 +19,7 @@ The formula is an inequality defined as:
 ### Build and Run
 
 ```bash
-	make
+ $ make
 ```
 
 It will generate a directory called *images* that contains the result in two different formats (*png* and *svg*).  
@@ -27,6 +27,6 @@ It will generate a directory called *images* that contains the result in two dif
 To delete this directory type:  
 
 ```bash
-	make clean
+ $ make clean
 ```
 
